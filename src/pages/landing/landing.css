@@ -1,0 +1,20 @@
+.desktop-screen {
+    display: block;
+}
+
+.mobile-screen {
+    display: none;
+
+}
+.snapchat {
+    color: linear-gradient(rgba(132, 86, 236, 1), rgba(232, 123, 248, 1));;
+}
+
+@media screen and (max-width:960px) {
+    .desktop-screen {
+        display: none;
+    }
+    .mobile-screen{
+        display: block;
+    }
+}
